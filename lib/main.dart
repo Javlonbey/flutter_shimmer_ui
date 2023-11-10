@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shimmer_ui/widgets/shimmer_widgets.dart';
-import 'package:shimmer/shimmer.dart';
+import 'package:flutter_shimmer_ui/screen/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ShimmerWidgets(),
+      home: HomeScreen(),
     );
   }
 }
